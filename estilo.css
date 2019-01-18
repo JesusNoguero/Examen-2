@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/*Examen LDM "Lenguaje de Marcas"*/
+/*Autor: Jesus Noguero Verdet*/
+/*Fecha de realizar la prueba 18-01-2019*/
+
+
+body {
+    background-color: hsl(61, 78%, 83%);
+    font-family: sans-serif;
+    background: url("img/naranja2.svg") repeat-x top / 30px,url("img/naranja2.svg") repeat-x bottom / 60px, hsl(59, 93%, 73%);;
+}
+
+p:hover {
+    z-index: 3;
+}
+
+h1 {
+    font: oblique bold 175% cursive;
+    color: white;
+    background-color:hsl(19, 97%, 76%);
+    text-align: center;
+    text-shadow: red 6px 0;
+    padding-bottom: 1%; 
+    padding-top: 1%;
+}
+
+nav {
+    padding: 20px 55px;
+    background-color: hsl(59,95%, 50%);
+    border: red 2px solid;
+    color: rgb(253, 138, 6);
+    text-align: center;
+    margin-top: -1%
+}
+
+a {
+    padding: 5%;
+    font-size: 20px;
+}
+p.cua {
+    padding: 10px;
+    font-size: 1.5rem;
+    float: left;
+}
+
+p#m1 {
+    background: url("img/naranja.png") repeat-y top left / 50px, url("img/naranja.png") repeat-y top right / 50px;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    color: rgb(236, 13, 13);
+    border: hsl(0, 91%, 50%) 4px solid;
+    background-color: hsl(12, 74%, 67%);
+    text-align: center;
+    text-decoration: underline;
+          
+}
+
+p#m2 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    color: orange;
+    border: hsl(61, 91%, 70%) 4px solid;
+    background-color: hsl(61, 79%, 60%);
+    text-align: left;
+}
+
+p#m3 {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    color: orange;
+    border: hsl(188, 69%, 68%) 4px solid;
+    background-color: hsl(180, 66%, 69%);
+    text-align: right;
+}
+
+p#m4 {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    width: 55%;
+    height: 60%;
+}
+
+ul {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    list-style-type: upper-roman;
+    background-color: hsl(19, 97%, 76%);
+    color: darkblue;
+} 
